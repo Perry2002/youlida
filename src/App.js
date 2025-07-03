@@ -13,6 +13,7 @@ import Actions from "./pages/Actions";
 import Evenements from "./pages/Evenements";
 import NosActions from "./pages/NosActions";
 import HomePage from "./pages/homepage";
+import FormTemoignage from "./components/FormTemoignage";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/evenements" element={<Evenements />} />
           <Route path="/adhesion" element={<Adhesion />} />
           <Route path="/NosActions" element={<NosActions />} />
+          <Route path="/laisser-temoignage" element={<FormTemoignage />} />
         </Routes>
       <Footer />
     </Router>

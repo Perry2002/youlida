@@ -6,21 +6,18 @@ export default function SectionHistoireMission() {
     <section className="py-5 bg-light">
       <div className="container">
         {/* Titre global */}
-        <h2 className="text-center mb-5">Notre Histoire & Notre Mission</h2>
+        <h2 className="mb-4 text-center fw-bold" style={{ color: "#1e293b" }}>Notre Histoire & Notre Mission</h2>
 
         <div className="row">
           {/* Histoire */}
           <div className="col-md-6 mb-4">
             <div className="p-4 bg-white shadow rounded h-100">
-              <h3 className="mb-3">Notre Histoire</h3>
+              <h3 className="mb-4 text-center text-primary fw-bold">Notre Histoire</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                fermentum, augue at varius sagittis, velit velit consequat orci,
-                eget faucibus elit metus nec risus. Nulla facilisi.
-              </p>
-              <p>
-                Aenean mollis sem vitae nisi tristique, at egestas nisl
-                sollicitudin. Duis pharetra ac nulla non laoreet.
+                <small className='fw-bold'>YOULIDA</small> est le fruit de l'engagement de jeunes leaders africains décidés à transformer leur génération en moteur de changement. Face aux inégalités et à l’exclusion, ils ont uni leurs compétences pour créer un espace où chaque jeune peut apprendre, s’exprimer et agir.
+                C’est une communauté engagée, porteuse d’espoir et de résilience. Elle prouve que la jeunesse, rassemblée, peut transformer son avenir et inspirer le monde.
+                Rejoignez-nous. Ensemble, construisons émerger l’Afrique de demain.
+
               </p>
             </div>
           </div>
@@ -28,14 +25,11 @@ export default function SectionHistoireMission() {
           {/* Mission */}
           <div className="col-md-6 mb-4">
             <div className="p-4 bg-white shadow rounded h-100">
-              <h3 className="mb-3">Notre Mission</h3>
+              <h3 className="mb-4 text-center text-primary fw-bold">Notre Mission</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                et sem nec magna gravida rutrum. Donec vel blandit neque.
-              </p>
-              <p>
-                Suspendisse potenti. Pellentesque habitant morbi tristique
-                senectus et netus et malesuada fames ac turpis egestas.
+                La mission de <small className='fw-bold'>YOULIDA</small> est de permettre aux adolescents et jeunes de prendre des décisions éclairées sur leur vie éducative, leur sexualité, leur bien-être et leur santé. Elle vise à déclencher un processus de transformation en faveur d'une gestion positive, constructive et non violente des conflits, tout en outillant les jeunes à défendre leurs droits et à faire face aux défis de leur développement physique et émotionnel.
+                Le but est d'engager tous les adolescents et jeunes africains à être des acteurs de changement pour eux-mêmes et leurs communautés dès l'âge de l'adolescence. Elle aspire à créer une Afrique radieuse, où les jeunes sont pleinement investis dans la construction d'un avenir meilleur.
+
               </p>
             </div>
           </div>
